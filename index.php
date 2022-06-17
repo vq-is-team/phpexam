@@ -64,7 +64,7 @@
             <form class="simple__form" method="POST" action="">
                 <div>
                     <label for="name">Name</label>
-                    <input type="text" minlength="1" maxlength="25" id="name" name="name" required>
+                    <input type="text" minlength="15" maxlength="25" id="name" name="name" required>
                     <span class="error__msg"><?php if(isset($name_error)) echo $name_error; ?></span>
                 </div>
                 
