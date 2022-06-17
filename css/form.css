@@ -1,0 +1,88 @@
+div {
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+}
+
+div div h1 {
+  text-align: center;
+}
+
+div .simple__form {
+  width: 100%;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div .simple__form .form__gender__group {
+  display: -ms-grid;
+  display: grid;
+  -webkit-column-gap: 1rem;
+          column-gap: 1rem;
+  -ms-grid-columns: minmax(auto, 50%) minmax(auto, 50%);
+      grid-template-columns: minmax(auto, 50%) minmax(auto, 50%);
+}
+
+div .simple__form .form__gender__group div {
+  display: inline-block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin: auto;
+  position: relative;
+}
+
+div .simple__form div {
+  width: 100%;
+  padding: 0.25rem;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div .simple__form div label {
+  display: block;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  margin-left: 0.5rem;
+  position: absolute;
+  top: -0.5px;
+  background-color: white;
+  font-size: 0.75rem;
+}
+
+div .simple__form div input, div .simple__form div select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.25rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: white;
+}
+
+div .simple__form div input[type=submit], div .simple__form div select[type=submit] {
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+  background-color: #4080c4;
+  color: white;
+}
+
+div .simple__form div input:focus, div .simple__form div select:focus {
+  outline: 1px solid #909090;
+}
+
+div .simple__form div input:disabled, div .simple__form div select:disabled {
+  border-color: #909090;
+  background-color: #d0d0d0;
+}
+
+div .simple__form div .error__msg {
+  margin-left: 0.5rem;
+  font-size: 0.75rem;
+  color: red;
+}
+/*# sourceMappingURL=form.css.map */
